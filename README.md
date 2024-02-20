@@ -57,6 +57,9 @@ You can create change ConnectionString for Database connection by navigating to 
     "ConnectionString": "Server=localhost;Database=taxDB;User=root;Password=password;"
   }
 ```
+## ️Important notice ⚠️
+
+
 ## Postman Collection
 
 In order to get Postman Collecting for testing, please go to `assets/postman_collection.json` or click [here](https://github.com/AlexKuchik/Taxes/blob/main/assets/postman_collection.json).
