@@ -5,9 +5,9 @@ using AutoMapper;
 using Moq;
 using NUnit.Framework;
 using Shouldly;
-using Takes.Domain.Models;
 using Taxes.Application.Common.Interfaces;
 using Taxes.Application.Mapper;
+using Taxes.Domain.Models;
 
 namespace Taxes.Application.Commands.AddTax
 {

@@ -1,11 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
-using Takes.Domain.Enums;
-using Takes.Domain.Models.Base;
-using Takes.Domain.Models.Interfaces;
+using Taxes.Domain.Enums;
+using Taxes.Domain.Models.Base;
+using Taxes.Domain.Models.Interfaces;
 
-namespace Takes.Domain.Models
+namespace Taxes.Domain.Models
 {
     [Index(nameof(City), Name = "Index_City")]
     public record Tax : BaseEntity, IAuditEntity

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Takes.Domain.Models;
 using Taxes.Application.Common.Interfaces;
+using Taxes.Domain.Models;
 
 namespace Taxes.Infrastructure.Persistence
 {

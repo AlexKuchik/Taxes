@@ -1,4 +1,4 @@
-namespace Takes.Domain.Enums
+namespace Taxes.Domain.Enums
 {
     public enum TaxCategory
     {

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using Takes.Domain.Enums;
-using Takes.Domain.Models;
+using Taxes.Domain.Enums;
+using Taxes.Domain.Models;
 
 namespace Taxes.Infrastructure.Extensions
 {

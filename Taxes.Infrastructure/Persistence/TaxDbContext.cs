@@ -3,8 +3,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Takes.Domain.Models;
-using Takes.Domain.Models.Interfaces;
+using Taxes.Domain.Models;
+using Taxes.Domain.Models.Interfaces;
 using Taxes.Infrastructure.Extensions;
 
 namespace Taxes.Infrastructure.Persistence

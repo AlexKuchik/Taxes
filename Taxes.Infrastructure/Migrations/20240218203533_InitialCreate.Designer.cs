@@ -23,7 +23,7 @@ namespace Taxes.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "8.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Takes.Domain.Models.Tax", b =>
+            modelBuilder.Entity("Taxes.Domain.Models.Tax", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

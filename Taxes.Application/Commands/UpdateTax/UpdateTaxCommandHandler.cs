@@ -3,8 +3,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using ErrorOr;
 using MediatR;
-using Takes.Domain.Models;
 using Taxes.Application.Common.Interfaces;
+using Taxes.Domain.Models;
 
 namespace Taxes.Application.Commands.UpdateTax
 {

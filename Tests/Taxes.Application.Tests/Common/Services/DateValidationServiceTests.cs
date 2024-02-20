@@ -2,7 +2,7 @@ using System;
 using Moq;
 using NUnit.Framework;
 using Shouldly;
-using Takes.Domain.Enums;
+using Taxes.Domain.Enums;
 
 namespace Taxes.Application.Common.Services
 {

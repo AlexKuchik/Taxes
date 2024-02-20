@@ -1,6 +1,6 @@
 using System;
 
-namespace Takes.Domain.Models.Base
+namespace Taxes.Domain.Models.Base
 {
     public abstract record BaseEntity
     {

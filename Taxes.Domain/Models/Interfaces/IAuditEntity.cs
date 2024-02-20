@@ -1,6 +1,6 @@
 using System;
 
-namespace Takes.Domain.Models.Interfaces
+namespace Taxes.Domain.Models.Interfaces
 {
     public interface IAuditEntity
     {

@@ -1,5 +1,5 @@
 using System;
-using Takes.Domain.Enums;
+using Taxes.Domain.Enums;
 
 namespace Taxes.Application.Extensions
 {

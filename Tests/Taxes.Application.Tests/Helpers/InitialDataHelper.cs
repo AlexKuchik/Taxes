@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Takes.Domain.Enums;
-using Takes.Domain.Models;
+using Taxes.Domain.Enums;
+using Taxes.Domain.Models;
 
 namespace Taxes.Application.Helpers
 {

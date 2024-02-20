@@ -1,7 +1,7 @@
 using System;
 using NUnit.Framework;
 using Shouldly;
-using Takes.Domain.Enums;
+using Taxes.Domain.Enums;
 
 namespace Taxes.Application.Extensions
 {

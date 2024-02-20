@@ -6,8 +6,8 @@ using ErrorOr;
 using Moq;
 using NUnit.Framework;
 using Shouldly;
-using Takes.Domain.Models;
 using Taxes.Application.Common.Interfaces;
+using Taxes.Domain.Models;
 
 namespace Taxes.Application.Commands.DeleteTax
 {

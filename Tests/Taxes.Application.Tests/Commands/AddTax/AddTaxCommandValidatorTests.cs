@@ -2,8 +2,8 @@ using System;
 using Moq;
 using NUnit.Framework;
 using Shouldly;
-using Takes.Domain.Enums;
 using Taxes.Application.Common.Interfaces;
+using Taxes.Domain.Enums;
 
 namespace Taxes.Application.Commands.AddTax
 {

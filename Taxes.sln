@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxes.API", "Taxes.API\Taxe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxes.Application", "Taxes.Application\Taxes.Application.csproj", "{A5B56B80-83B2-45ED-87AB-0149A5F152DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Takes.Domain", "Takes.Domain\Takes.Domain.csproj", "{C287A16F-8844-4953-9C38-90F0B1583754}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxes.Domain", "Taxes.Domain\Taxes.Domain.csproj", "{C287A16F-8844-4953-9C38-90F0B1583754}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxes.Infrastructure", "Taxes.Infrastructure\Taxes.Infrastructure.csproj", "{A2A2ED55-BA25-450D-88C7-2FE786241F5E}"
 EndProject

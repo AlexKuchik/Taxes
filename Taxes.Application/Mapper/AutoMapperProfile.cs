@@ -1,8 +1,8 @@
 using AutoMapper;
-using Takes.Domain.Models;
 using Taxes.Application.Commands.AddTax;
 using Taxes.Application.Extensions;
 using Taxes.Application.Models;
+using Taxes.Domain.Models;
 
 namespace Taxes.Application.Mapper
 {
