@@ -16,6 +16,12 @@ Though layer architectures like onion, Hexagonal all vary somewhat in their deta
 
 * [Clean Architecture by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
+## Folder Structure
+
+<div align="center">
+<img src="assets/Structure.png" height=500px >
+</div>
+
 ## Technology stack
 
 Architecture Pattern
@@ -39,3 +45,6 @@ Unit Testing
 - [x] Nunit
 - [x] Moq
 - [x] Shouldly
+
+
+
