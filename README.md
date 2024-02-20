@@ -27,6 +27,7 @@ Though layer architectures like onion, Hexagonal all vary somewhat in their deta
 Architecture Pattern
 
 - [x] Clean architecture
+- [x] Onion archhitecture
 
 Design Pattern
 - [x] CQRS design pattern
@@ -46,5 +47,15 @@ Unit Testing
 - [x] Moq
 - [x] Shouldly
 
+## Database
+
+The template is configured to use **MySql** by default.
+When you run the application the database will be automatically created (if necessary) and the latest migrations will be applied.
+You can create change ConnectionString for Database connection by navigating to `Taxes.API/appsettings.json` and updating 
+```json
+"ConnectionStrings": {
+    "ConnectionString": "Server=localhost;Database=taxDB;User=root;Password=password;"
+  }
+```
 
 
