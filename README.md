@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project provides complete solution which is built on Clean Architecture.
+This project provides complete solution which is built on Clean Architecture and Onion archhitecture.
 <div align="center">
 <img src="assets/Clean%20Architecture%20Diagram.svg" height=500px >
 </div>
