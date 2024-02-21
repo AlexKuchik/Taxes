@@ -69,7 +69,7 @@ Since shifted dates cannot be set, the correct request to add(`[Post] api/taxes`
  "category": 1
 }
 ```
-Where `category` is value from `Enum`:
+Where `category = 1` is value from `Enum`:
 
 ```csharp
 public enum TaxCategory
@@ -92,7 +92,7 @@ Where `startDate` is first day of year, for instance `2023-01-01`, `2024-01-01`,
  "category": 2
 }
 ```
-Where `category` is value from `Enum`, please see above.
+Where `category = 2` is value from `Enum`, please see above.
 
 Where `startDate` is first day of months, for instance `2024-01-01`, `2024-02-01`, `2024-03-01`
 > Note: Dates other than the first day of the mouth will be rejected(`Bad Request`)
@@ -106,7 +106,7 @@ Where `startDate` is first day of months, for instance `2024-01-01`, `2024-02-01
  "category": 3
 }
 ```
-Where `category` is value from `Enum`, please see above.
+Where `category = 3` is value from `Enum`, please see above.
 
 Where `startDate` is first day of week(**Monday**), for instance `2024-02-05`, `2024-03-11`, `2023-04-08`
 > Note: Dates other than the first day of the week will be rejected(`Bad Request`) 
@@ -120,7 +120,7 @@ Where `startDate` is first day of week(**Monday**), for instance `2024-02-05`, `
  "category": 4
 }
 ```
-Where `category` is value from `Enum`, please see above:
+Where `category = 4` is value from `Enum`, please see above:
 > Note: No restrictions
 
 ### Please note that the end date will be calculated automatically based on the `startDate` and `category` values.
