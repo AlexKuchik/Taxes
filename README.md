@@ -57,8 +57,73 @@ You can create change ConnectionString for Database connection by navigating to 
     "ConnectionString": "Server=localhost;Database=taxDB;User=root;Password=password;"
   }
 ```
-## ️Important notice ⚠️
+## ️Important notices ⚠️
 
+Since shifted dates cannot be set, the correct request to add(`[Post] api/taxes`):
+1. `Yearly` tax:
+```json
+{
+ "startDate": "2024-01-01",
+ "rate": 5.6,
+ "city": "Kaunas",
+ "category": 1
+}
+```
+Where `category` is value from `Enum`:
+
+```csharp
+public enum TaxCategory
+{
+  Year = 1,
+  Month = 2,
+  Week = 3,
+  Day = 4
+}
+```
+Where `startDate` is first day of year, for instance `2023-01-01`, `2024-01-01`, `2025-01-01`
+> Note: Dates other than the first day of the year will be rejected(`Bad Request`)
+
+2. `Monthly` tax:
+```json
+{
+ "startDate": "2024-02-01",
+ "rate": 5.6,
+ "city": "Kaunas",
+ "category": 2
+}
+```
+Where `category` is value from `Enum`, please see above.
+
+Where `startDate` is first day of months, for instance `2024-01-01`, `2024-02-01`, `2024-03-01`
+> Note: Dates other than the first day of the mouth will be rejected(`Bad Request`)
+
+3. `Weekly` tax:
+```json
+{
+ "startDate": "2024-02-01",
+ "rate": 5.6,
+ "city": "Kaunas",
+ "category": 3
+}
+```
+Where `category` is value from `Enum`, please see above.
+
+Where `startDate` is first day of week(**Monday**), for instance `2024-02-05`, `2024-03-11`, `2023-04-08`
+> Note: Dates other than the first day of the week will be rejected(`Bad Request`) 
+
+4. `Daily` tax:
+```json
+{
+ "startDate": "2024-02-10",
+ "rate": 5.6,
+ "city": "Kaunas",
+ "category": 4
+}
+```
+Where `category` is value from `Enum`, please see above:
+> Note: No restrictions
+
+### Please note that the end date will be calculated automatically based on the `startDate` and `category` values.
 
 ## Postman Collection
 
